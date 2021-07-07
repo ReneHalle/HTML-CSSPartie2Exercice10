@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .content{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .content1 {
+            background-color: rgba(255, 0, 0, 0.651);
+            position: absolute;
+            z-index: 100;
+        }
+        .content2 {
+            background-color: blue;
+            position: absolute;
+            z-index: 0;
+            left: 150px;
+        }
+        .content3 {
+            background-color: green;
+            position: absolute;
+            top: 150px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="site-content">
+        <div class="content content1"></div>
+        <div class="content content2"></div>
+        <div class="content content3"></div>
+    </div>
+</body>
+</html>
